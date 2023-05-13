@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  arti,
   javascript,
   typescript,
   html,
@@ -48,21 +49,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "",
+    icon: arti,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -134,7 +135,7 @@ const experiences = [
   },
   {
     title: "Google Developer Student Club GCOEA",
-    company_name: "Lead",
+    company_name: "Founder",
     icon: google,
     iconBg: "#383E56",
     date: "July 2022- April 2023",
