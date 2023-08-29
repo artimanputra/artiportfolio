@@ -1,7 +1,7 @@
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github,urlLink } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -34,12 +34,24 @@ const ProjectCard = ({
             {/* we can copy the below div to add live url */}
             <div
               onClick={() => window.open(source_code_Link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 m-1 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-3/5 h-3/5 object-contain"
+              />
+            </div>
+            {/* till here we can paste for live url */}
+            {/* we can copy the below div to add live url */}
+            <div
+              onClick={() => window.open(deploy_Link, "_blank")}
+              className="black-gradient w-10 h-10 m-1 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={urlLink}
+                alt="github"
+                className="w-3/5 h-3/5 object-contain"
               />
             </div>
             {/* till here we can paste for live url */}

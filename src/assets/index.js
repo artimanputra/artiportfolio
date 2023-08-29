@@ -24,6 +24,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import java from "./tech/java.png";
 import github_tech from "./tech/github.png";
+import urlLink from "./tech/urlLink.png";
 import postman from "./tech/postman.png";
 import sql from "./tech/sql.png";
 
@@ -45,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  urlLink,
   menu,
   close,
   arti,

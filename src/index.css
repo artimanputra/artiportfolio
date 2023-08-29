@@ -202,3 +202,30 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* social media */
+.social-media{
+  transform: translateY(80px) translateX(30px);
+  }
+  
+  .social-media .i{
+      font-size: 35px;
+      border: 2px solid #4475e2;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      padding: 10px;
+      margin: 20px;
+      margin-top: 2px;
+      cursor: pointer;
+      transition: all .3s;
+      border-radius: 50%;
+      position: relative;
+  }
+
+  .social-media .i:hover{
+      background:linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);;
+      color: #fff;
+      transform: translateY(5px);
+  }
+  

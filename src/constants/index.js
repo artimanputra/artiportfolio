@@ -45,6 +45,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id:"links",
+    title:"Social Link"
+  }
 ];
 
 const services = [
@@ -171,41 +175,15 @@ const experiences = [
   // },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Happy Tails",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-Based application for pet welfare including pet adoption,volunteering, product purchasing, and donations.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -213,55 +191,58 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SarthakChandurkar/HappyTails",
+    deploy_Link:"https://happytails-es0e.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Articles Summarizer ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Simplify your reading with Summrizer, an open-source article summarizer that transforms lengthy articles into clear and concise summaries.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "openAI-api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/artimanputra/ai_summarizer",
+    deploy_Link:"https://ai-sumz-dtxb.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Antswap",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Swap, earn and build with Antswap's programmable liquidity network and unleash the full potential of your assets.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascipt",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/artimanputra/antswap",
+    deploy_Link:"https://test1-yuur.onrender.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
