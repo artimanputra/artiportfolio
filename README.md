@@ -1,6 +1,6 @@
 # Portfolio Website
 
-[GitHub](https://github.com/SarthakChandurkar/HappyTails) || [Live Demo](https://artimanputra.onrender.com/)
+[GitHub](https://github.com/artimanputra/artiportfolio) || [Live Demo](https://artimanputra.onrender.com/)
 
 - Developed an engaging 3D portfolio website
 - Utilized Three.js for 3D graphics and animations
