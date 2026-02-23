@@ -30,6 +30,7 @@ import {
   sql,
   google,
   MLSA,
+  TCE
 } from "../assets";
 
 export const navLinks = [
@@ -56,18 +57,7 @@ const services = [
     title: "",
     icon: arti,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  
 ];
 
 const technologies = [
@@ -127,10 +117,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Senior Software Engineer",
+    company_name: "Tata Consulting Engineers (TCE)",
+    icon: TCE,
+    iconBg: "#383E56",
+    date: "Aug 2024 - Present",
+    points: [
+      "Contributed to end-to-end web application development, covering database design, backend APIs, and frontend UI enhancements.",
+      "Implemented and optimized scalable RESTful APIs and business logic, reducing processing time for key workflows by ~20–30%.",
+      "Modernized legacy modules by refactoring and restructuring code, improving system performance, maintainability, and reusability.",
+      "Enhanced UI functionality and accessibility, leading to smoother user experience and fewer UI-related support tickets.",
+      "Worked in Agile sprints with cross-functional teams, handling requirement gathering, task estimation, and mentoring new joiners on workflows and best coding practices.",
+      "Tech stack: React.js, JavaScript, Microsoft SQL Server, Entity Framework, REST APIs, Git, Azure DevOps, OpenXML."
+    ],
+  },
+  {
     title: "Microsoft Learn Student Ambassador",
     company_name: "BETA MLSA",
     icon: MLSA,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
       "Organized and hosted technical events on various topics.",
@@ -147,17 +152,6 @@ const experiences = [
       "Mentoring and supporting peers and junior team members.",
       "Learned leadership skills and communication skills",
       "Organized and hosted 15+ events on different technical and non-technical topic",
-    ],
-  },
-  {
-    title: "Postman Student Expert",
-    company_name: "Postman",
-    icon: postman,
-    iconBg: "#383E56",
-    date: "February 2022 - Present",
-    points: [
-      "Designed and implemented API integration system in JavaScript.",
-      "Build and successfully send requests in Postman using a variety of methods including GET, POST, PUT and DELETE.",
     ],
   },
 ];

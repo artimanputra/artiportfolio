@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -19,19 +19,20 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Java Programming and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with teams to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. 
-        <br/>
-        I am a Computer Science student looking for opportunities in Web Development and Software Engineering.
-        <br/>
-        Let's work together to bring your ideas to life!
+       I’m a full-stack software engineer who enjoys building end-to-end products that are scalable,
+       reliable, and easy to use. I work across the stack with<strong> JavaScript,React.js, Node.Js, PostgreSQL, 
+       Docker,</strong> and modern frontend frameworks to turn ideas into production-ready applications.       
+
+      <br/> I’ve built real systems used by real users — from backend APIs and data models to clean 
+      dashboards and integrations with external services. I care about <strong>code quality, performance, 
+      and ownership</strong>,  and I’m comfortable taking vague problems and shipping solid solutions. 
+
+      <br/> I’m always curious, always learning, and excited by fast-moving teams where impact matters. 
+      <br/> <strong>Open to full-stack and backend opportunities. Let’s build something meaningful together 🚀</strong>
        
       </motion.p>
-      <Link to="https://drive.google.com/file/d/1m_FjwepMZYuwPDA1uzY3CtjrQ5e0o_cH/view?usp=sharing">
-          <div className=" p-3 mt-5 font-medium text-[20px] border-2 rounded-full border-[#4475e2] inline-block ">Download Resume</div>
+      <Link to="https://drive.google.com/file/d/1nB4yzRNAavaPcQyauuSYzKmlbA6Uy7x_/view?usp=sharing">
+          <div className=" p-3 mt-5 font-medium text-[20px] text-white border-2 rounded-full border-[#4475e2] inline-block ">Download Resume</div>
         </Link>
       <div
         className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -60,20 +61,20 @@ const About = () => {
               className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[292px] w-full flex justify-evenly flex-col pb-10 grid grid-cols-2 gap-4"
             >
               <div className="flex flex-row">
-              <ul className="list-disc">
+              <ul className="list-disc text-white">
                 <li className=" py-4"><strong className="text-[#ffffff]">Branch :</strong><span className="text-[#ffffff] font-sans"> Computer Science and Engineering</span></li>
                 <li className="py-4"><strong className="text-[#ffffff]">Degree :</strong><span> B.Tech</span></li>
                 <li className="py-4"><strong className="text-[#ffffff]">College :</strong><span> GCOEA</span></li>
-                <li className="py-4"><strong className="text-[#ffffff]">CGPA :</strong><span> 8.21 (SEM 5th)</span></li>
+                <li className="py-4"><strong className="text-[#ffffff]">CGPA :</strong><span> 8.34</span></li>
               </ul>
               </div>
 
               <div className="flex flex-row pr-2">
-              <ul className="list-disc">
+              <ul className="list-disc text-white">
                 <li className="py-4"><strong className="text-[#ffffff]">Graduation Year :</strong><span> 2024</span></li>
                 <li className="py-4"><strong className="text-[#ffffff]">Email :</strong><span> aartimanputra20@gmail.com</span></li>
                 <li className="py-4" ><strong className="text-[#ffffff]">Phone :</strong><span> +91-7028575552</span></li>
-                <li className="py-4" ><strong className="text-[#ffffff]">City :</strong><span> Amravati</span></li>
+                <li className="py-4" ><strong className="text-[#ffffff]">City :</strong><span> Navi Mumbai  </span></li>
               </ul>
               </div>
 
