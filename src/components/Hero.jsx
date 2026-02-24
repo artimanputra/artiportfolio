@@ -19,7 +19,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {" "}
             Building beautiful web  <br className="sm:block hidden" />{" "}
-            experiences one line  <br className="sm:block hidden" />{" "}of code at a time{" "}
+            experiences, one line  <br className="sm:block hidden" />{" "}of code at a time{" "}
           </p>
         </div>
       </div>
