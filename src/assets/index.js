@@ -39,6 +39,9 @@ import TCE from "./company/TCE.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import resumind from "./resumind.png";
+import splitstudio from "./splitstudio.png";
+
 
 export {
   logo,
@@ -77,5 +80,7 @@ export {
   sql,
   google,
   MLSA,
-  TCE
+  TCE,
+  splitstudio,
+  resumind
 };

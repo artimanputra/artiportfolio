@@ -30,7 +30,9 @@ import {
   sql,
   google,
   MLSA,
-  TCE
+  TCE,  
+  splitstudio,
+  resumind
 } from "../assets";
 
 export const navLinks = [
@@ -123,25 +125,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2024 - Present",
     points: [
-      "Contributed to end-to-end web application development, covering database design, backend APIs, and frontend UI enhancements.",
-      "Implemented and optimized scalable RESTful APIs and business logic, reducing processing time for key workflows by ~20–30%.",
-      "Modernized legacy modules by refactoring and restructuring code, improving system performance, maintainability, and reusability.",
-      "Enhanced UI functionality and accessibility, leading to smoother user experience and fewer UI-related support tickets.",
-      "Worked in Agile sprints with cross-functional teams, handling requirement gathering, task estimation, and mentoring new joiners on workflows and best coding practices.",
-      "Tech stack: React.js, JavaScript, Microsoft SQL Server, Entity Framework, REST APIs, Git, Azure DevOps, OpenXML."
-    ],
-  },
-  {
-    title: "Microsoft Learn Student Ambassador",
-    company_name: "BETA MLSA",
-    icon: MLSA,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Present",
-    points: [
-      "Organized and hosted technical events on various topics.",
-      "Taught technical topics such as Git and GitHub to 100+ students.",
-    ],
-  },
+      "Developing full‑stack web applications including database design, backend APIs, and frontend enhancements.",
+    "Built and optimized scalable REST APIs, improving workflow performance by ~20–30%.",
+    "Refactored legacy modules to boost system speed, maintainability, and code quality.",
+    "Improved UI functionality and accessibility, reducing UI-related issues and support overhead.",
+    "Collaborating in Agile sprints for requirement analysis, task estimation, and mentoring new team members.",
+    "Tech stack: React.js, JavaScript, SQL Server, Entity Framework, REST APIs, Git, Azure DevOps, OpenXML."
+ ],
+  },  
   {
     title: "Google Developer Student Club GCOEA",
     company_name: "Founder",
@@ -154,10 +145,55 @@ const experiences = [
       "Organized and hosted 15+ events on different technical and non-technical topic",
     ],
   },
+  {
+    title: "Microsoft Learn Student Ambassador",
+    company_name: "BETA MLSA",
+    icon: MLSA,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Feb 2022",
+    points: [
+      "Organized and hosted technical events on various topics.",
+      "Taught technical topics such as Git and GitHub to 100+ students.",
+    ],
+  },
 ];
 
 
 const projects = [
+  {
+      name: "Split Studio",
+      description:
+        "Video management web app for organizing and splitting video.",
+      tags: [
+        { name: "nextjs", color: "blue-text-gradient" },
+        { name: "python", color: "green-text-gradient" },
+        { name: "fastapi", color: "pink-text-gradient" },        
+        { name: "postgresql", color: "blue-text-gradient" },
+        { name: "pytest", color: "green-text-gradient" },
+        { name: "docker", color: "pink-text-gradient" },
+        { name: "ffmpeg", color: "green-text-gradient" },
+        { name: "vercel", color: "pink-text-gradient" },
+
+      ],
+      image: splitstudio,            
+      source_code_link: "https://github.com/artimanputra/videoManagementApp",
+      deploy_Link: "https://splitstudio.artimanputra.site/"
+    },
+    {
+      name: "Resumind",
+      description:
+        "AI-powered resume analyzer that checks ATS score and provides improvement insights.",
+      tags: [
+        { name: "javascript", color: "blue-text-gradient" },
+        { name: "react", color: "blue-text-gradient" },
+        { name: "tailwindcss", color: "green-text-gradient" },
+        { name: "react-router", color: "pink-text-gradient" },
+        { name: "docker", color: "green-text-gradient" }
+      ],
+      image: resumind,               
+      source_code_link: "https://github.com/artimanputra/airesumeanalyzer",
+      deploy_Link: "https://resumind.artimanputra.site/"
+    },
   {
     name: "Happy Tails",
     description:
