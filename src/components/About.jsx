@@ -35,33 +35,32 @@ const About = () => {
           <div className=" p-3 mt-5 font-medium text-[20px] text-white border-2 rounded-full border-[#4475e2] inline-block ">Download Resume</div>
         </Link>
       <div
-        className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+        className={`mt-12 flex flex-col md:flex-row gap-10 items-center`}
       >
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] xs:flex xs:items-center xs:justify-center py-4  md:flex md:items-center md:justify-center"
+          className="w-full xl:w-1/2 flex justify-center"
         >
           <img
             src={arti}
             alt="profile"
-            className="max-w-[82%] rounded-[20px] xs:max-w-[70%] md:max-w[50%]"
+             className="max-w-[70%] rounded-[20px]"
           />
         </motion.div>
-        <Tilt className="xs:w-[500px]  w-[5%] xs:flex xs:items-center xs:justify-center md:flex md:items-center md:justify-center">
+
+        <Tilt  className="w-full xl:w-1/2">
           <motion.div
             variants={slideIn("right", "tween", 0.2, 1)}
-            className="xl:flex-1 xl:h-auto md:h-[312px] h-[282px] xs:h-[312px] w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-5"
-          >
+             className="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
             <div
               options={{
                 max: 45,
                 scale: 1,
                 speed: 450,
               }}
-              className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[292px] w-full flex justify-evenly flex-col pb-10 grid grid-cols-2 gap-4"
-            >
+              className="bg-tertiary rounded-[20px] p-8 grid grid-cols-2 gap-6">
               <div className="flex flex-row">
-              <ul className="list-disc text-white">
+              <ul className="list-disc text-white space-y-4">
                 <li className=" py-4"><strong className="text-[#ffffff]">Branch :</strong><span className="text-[#ffffff] font-sans"> Computer Science and Engineering</span></li>
                 <li className="py-4"><strong className="text-[#ffffff]">Degree :</strong><span> B.Tech</span></li>
                 <li className="py-4"><strong className="text-[#ffffff]">College :</strong><span> GCOEA</span></li>
@@ -70,15 +69,13 @@ const About = () => {
               </div>
 
               <div className="flex flex-row pr-2">
-              <ul className="list-disc text-white">
+              <ul className="list-disc text-white space-y-4">
                 <li className="py-4"><strong className="text-[#ffffff]">Graduation Year :</strong><span> 2024</span></li>
                 <li className="py-4"><strong className="text-[#ffffff]">Email :</strong><span> aartimanputra20@gmail.com</span></li>
                 <li className="py-4" ><strong className="text-[#ffffff]">Phone :</strong><span> +91-7028575552</span></li>
                 <li className="py-4" ><strong className="text-[#ffffff]">City :</strong><span> Navi Mumbai  </span></li>
               </ul>
               </div>
-
-
             </div>
           </motion.div>
         </Tilt>

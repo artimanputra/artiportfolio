@@ -221,6 +221,7 @@
       transition: all .3s;
       border-radius: 50%;
       position: relative;
+       color: #fff;
   }
 
   .social-media .i:hover{

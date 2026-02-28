@@ -11,10 +11,10 @@ import { faLinkedin, faGithub ,faTwitter, faInstagram } from '@fortawesome/free-
 
 const SocialLink = () => {
   return( <>
-  <motion.div variants={textVariant()} className="z-100">
+  <motion.div variants={textVariant()} className="z-100  flex justify-center text-center">
         <h2 className={styles.sectionHeadText}>Connect With Me.</h2>
     </motion.div>
-<div className="social-media ">
+<div className="social-media flex justify-center items-center gap-6 mt-1">
     <Link to="#">
    <FontAwesomeIcon icon={faLinkedin}  className="i xs:text-[15px]"/>
    </Link>
