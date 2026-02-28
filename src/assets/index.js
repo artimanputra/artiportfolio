@@ -35,6 +35,9 @@ import tesla from "./company/tesla.png";
 import google from './company/google.png'
 import MLSA from "./company/MLSA.png"
 import TCE from "./company/TCE.png"
+import Python from "./tech/python.png"
+import postgresql from "./tech/postgresql.png"
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -82,5 +85,7 @@ export {
   MLSA,
   TCE,
   splitstudio,
-  resumind
+  resumind,
+  Python,
+  postgresql
 };

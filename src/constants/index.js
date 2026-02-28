@@ -1,3 +1,4 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
 import {
   mobile,
   backend,
@@ -32,7 +33,9 @@ import {
   MLSA,
   TCE,  
   splitstudio,
-  resumind
+  resumind,
+  Python,
+  postgresql
 } from "../assets";
 
 export const navLinks = [
@@ -114,7 +117,31 @@ const technologies = [
   {
     name: "postman",
     icon: postman,
+  },  
+  {
+    name: "docker",
+    icon: docker,
   },
+  {
+    name: "typescript",
+    icon: typescript,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "redux",
+    icon: redux,
+  },
+{
+  name:"python",
+  icon: Python
+},
+{
+  name:"postgresql",
+  icon: postgresql
+}
 ];
 
 const experiences = [
